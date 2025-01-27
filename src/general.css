@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    background-color: #f0f5f1
+}
+
+
+button:hover {
+    transform: scale(1.1);
+}
